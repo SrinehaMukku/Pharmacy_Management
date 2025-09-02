@@ -52,7 +52,7 @@ def open_win(): #OPENS MAIN MENU------------------------------------------------
     Button(apt,text='Logout',command=apt.destroy).grid(row=13, column=1)
     apt.mainloop()
 
-def delete_stock(): #OPENS DELETE WINDOW----------------------------------------------------DELETES A PARTICULAR STOCK ITEM
+def delete_stock(): #OPENS DELETE WINDOW--==--------------------------------------------------DELETES A PARTICULAR STOCK ITEM
     global cur, c, flag, lb1, d
     apt.destroy()
     flag='d'
